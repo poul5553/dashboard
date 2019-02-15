@@ -1,0 +1,154 @@
+@font-face {
+  font-family: 'FrutigerLTStd-Light';
+  font-weight: 400;
+  src: local("FrutigerLTStd-Light"), local("FrutigerLTStd-Light"), url(../font/FrutigerLTStd-Light.ttf);
+}
+
+@font-face {
+  font-family: 'FrutigerLTStd-UltraBlack';
+  font-weight: 400;
+  src: local("FrutigerLTStd-UltraBlack"), local("FrutigerLTStd-UltraBlack"), url(../font/FrutigerLTStd-UltraBlack.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  /* display: grid;
+  grid-template-columns: repeat(12, 1fr); */
+  margin: 0px;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+.grid{
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+
+}
+.st0{
+  fill:#D83A46;
+}
+.st1{
+  fill:#84B12A;
+}
+.st2{
+  fill:#9916B1;
+}
+.st3{
+  fill:#009BB9;
+}
+.st4{
+  fill:#585968;
+}
+.st5{
+  font-family:'FrutigerLTStd-UltraBlack';
+}
+.st6{
+  font-size:38.5109px;
+}
+.st7{
+  font-family:'FrutigerLTStd-Light';
+}
+.st8{
+  fill:none;
+  stroke:#000000;
+  stroke-miterlimit:10;
+}
+.st9{
+  fill:none;
+  stroke:#A09F9F;
+  stroke-miterlimit:10;
+}
+.st10{
+  fill:none;
+  stroke:#A09F9F;
+  stroke-width:2;
+  stroke-miterlimit:10;
+}
+.st11{
+  fill:none;
+  stroke:#000000;
+  stroke-width:2;
+  stroke-miterlimit:10;}
+.st12{
+  fill:#FFFFFF;
+  stroke:#000000;
+  stroke-width:2;
+  stroke-miterlimit:10;}
+.st13{
+  fill:#FFC015;
+}
+.st14{
+  fill:#FFFFFF;
+}
+.st15{
+  font-size:23.4279px;
+}
+.st16{
+  font-size:15.6186px;
+}
+.st17{
+  fill:none;
+  stroke:#4DD6E8;
+  stroke-miterlimit:10;
+}
+.st18{
+  fill:#878787;
+}
+.st19{
+  font-size:27.0346px;
+}
+.st20{
+  font-size:12.0154px;
+}
+.st21{
+  font-size:28.5231px;
+}
+.st22{
+  font-size:9.5077px;
+}
+.st23{
+  font-size:10.4124px;
+}
+.st24{
+  font-size:29.0805px;
+}
+.st25{
+  font-size:12.9247px;
+}
+.st26{
+  font-size:26.7832px;
+}
+.st27{
+  font-size:14.6167px;
+}
+
+.aktivity-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2%;
+  position: relative;
+height: 87vh;
+width: 80vh;
+margin: 2% 0 1% 2%;
+
+}
+.aktivity-container div{
+  background-color: #FFF3D8;
+  border-radius: 4px;
+  text-align: center;
+  font-size: 30px;
+
+}
+.map{
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  position: absolute;
+  height: 40vh;
+  width: 48vw;
+  top:41.4%;
+  right:3%;
+}
+/*# sourceMappingURL=main.css.map */

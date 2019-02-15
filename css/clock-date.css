@@ -1,0 +1,65 @@
+
+#clock{
+  display: inline-block;
+  border-radius: 4px;
+  font-size: 1.5em;
+  text-align: center;
+  color: #353434;
+  margin-top: 2%;
+}
+#date{
+  display: inline-block;
+  border-radius: 4px;
+  margin-top: 1%;
+  color: #353434;
+}
+
+.news{
+   overflow: hidden;
+   white-space: nowrap;
+   display: inline-block;
+   font-size: 2em;
+   width: 70vw;
+   height: 92.1%;
+   margin-top: 1vh;
+   border-right: 1px solid lightgrey;
+   border-left: 1px solid lightgrey;
+
+
+}
+.news-text{
+  margin-top: 1%;
+  font-family: 'Open Sans', sans-serif;
+
+}
+.clock-date{
+  width: 11vw;
+  display: inline-block;
+  height: 92.1%;
+  text-align: center;
+  margin-top: 1vh;
+  margin-left: 2.5vw;
+}
+.logo{
+  text-align: center;
+  width: 60%;
+  height: 90%;
+  margin-left:2%;
+}
+.buttom-container{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  border-top: 1px solid lightgrey;
+}
+.footer-text{
+  text-align: center;
+}
+.Logo{
+text-align:center;
+margin-top:10px;
+}
+.youtubelink{
+position: absolute;
+right: 13.6%;
+top: 1%;
+}
