@@ -54,7 +54,7 @@ var news = {
       x ++;
       var W = news.Tags[i].parentElement.offsetWidth;
       var w = news.Tags[i].offsetWidth;
-      if((x/3500) * W  > w) x = -W;
+      if((x/4000) * W  > w) x = -W;
       news.Tags[i].style.right = x + 'px';
     }
     requestAnimationFrame(this.loop.bind(this));
@@ -72,6 +72,7 @@ if (vcClass.substr(0,1) === "a") {
   team = "Webudvikler";
 }else if (vcClass.indexOf("mg")>0) {
   team = "Mediegrafiker";
+  color = "red";
 }else if (vcClass.indexOf("dm")>0) {
   team = "Digitalmedia";
 }else if (vcClass.indexOf("gr")>0) {
@@ -81,4 +82,5 @@ if (vcClass.substr(0,1) === "a") {
 }else {
  team = vcClass;
 }
+var colorino = "background-color:" + color;
 console.log(team);

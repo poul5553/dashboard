@@ -12,43 +12,11 @@
     <% include ../partials/header %>
 </header>
 
-
-
-
-
-    <!-- <div class="jumbotron">
-        <h1>This is great</h1>
-        <p>Welcome to templating using EJS</p>
-    </div> -->
-
-    <!-- <h2>Variable</h2>
-    <p><%= tagline %></p>
-
-    <h2>Loop</h2> -->
-
-    <!-- <ul>
-        <% drinks.forEach(function(drink) { %>
-            <li><%= drink.name %> - <%= drink.drunkness %></li>
-        <% }); %>
-    </ul> -->
 <section class='grid'>
     <span class="aktivity-container">
-        <div>1</div>
-        <div>2</div>
-        <div>3</div>
-        <div>4</div>
-        <div>5</div>
-        <div>6</div>
-        <div>7</div>
-        <div>8</div>
-        <div>9</div>
-        <div>10</div>
-        <div>11</div>
-        <div>12</div>
-        <div>13</div>
-        <div>14</div>
-        <div>15</div>
-        <div>16</div>
+        <% rows.forEach((activity) => { %>
+            <div><%= activity.iActivityID %> - <%= activity.vcSubject %></div>
+        <% }); %>         
     </span>
     <div class="youtubelink">
 
